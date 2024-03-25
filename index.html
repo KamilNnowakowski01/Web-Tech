@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Układ Słoneczny</title>
+
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/menu.css" />
+    <link rel="stylesheet" href="./css/layout.css" />
+    <link rel="stylesheet" href="./css/main-rwd-1200.css" />
+    <link rel="stylesheet" href="./css/main-rwd-800.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Rakkas&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Opcjonalne: Dołączanie CSS dla dodatkowego stylowania -->
+    <script src="./js/menu.js" async></script>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Solar System Website</h1>
+        <!-- Opcjonalnie: Dodanie nawigacji -->
+        <nav>
+          <ul class="menu">
+            <li><a class="menuItem" href="./index.html">Solar System Website</a></li>
+            <li><a class="menuItem" href="./1mercury.html">Merkury</a></li>
+            <li><a class="menuItem" href="./2venus.html">Wenus</a></li>
+            <li><a class="menuItem" href="./3earth.html">Ziemia</a></li>
+            <li><a class="menuItem" href="./4mars.html">Mars</a></li>
+            <li><a class="menuItem" href="./5jupiter.html">Jowisz</a></li>
+            <li><a class="menuItem" href="./6saturn.html">Saturn</a></li>
+            <li><a class="menuItem" href="./7uranus.html">Uran</a></li>
+            <li><a class="menuItem" href="./8neptune.html">Neptun</a></li>
+          </ul>
+          <button class="hamburger">
+            <!-- material icons https://material.io/resources/icons/ -->
+            <i class="menuIcon material-icons">MENU</i>
+            <i class="closeIcon material-icons">CLOSE</i>
+          </button>
+        </nav>
+      </header>
+      <main>
+        <section id="solar-system">
+          <div class="box">
+            <h2>Układ Słoneczny</h2>
+            <p>
+              Układ Słoneczny to zbiór planet, księżyców, asteroid i innych ciał
+              niebieskich, krążących wokół gwiazdy centralnej.
+            </p>
+          </div>
+          <img src=".\static\solar-system\img.jpg" width="100%" />
+        </section>
+        <section id="sun">
+          <div id="leftSection">
+            <div class="sectionText">
+              <h2>Słońce</h2>
+              <p>
+                Słońce jest olbrzymią kulą gorącego gazu, głównie składającą się
+                z wodoru i helu. Jest żródłem energii dla naszego systemu
+                planetarnego, emituje ogromne ilości energii w postaci światła i
+                ciepła. Jego ogromna masa i grawitacja utrzymują w ruchu
+                wszystkie planety i inne ciała niebieskie wokół niego.
+              </p>
+            </div>
+          </div>
+          <div id="rightSection">
+            <img src="./static/solar-system/0-sun/img.jpg"/>
+          </div>
+        </section>
+        <section id="planets">
+          <section id="inner-planets">
+            <div class="box">
+              <h2>Planety wewnętrzne</h2>
+              <p>
+                Planety wewnętrzne są to planety skaliste, bogate w skały i
+                metale, z małymi ilościami gazów.
+              </p>
+            </div>
+            <div class="planets">
+              <a href="./1mercury.html">
+                <section id="mercury" class="planet">
+                  <h2>Merkury</h2>
+                  <img
+                    src="./static/solar-system/1-mercury/img.jpg"
+                    height="512"
+                  />
+                </section>
+              </a>
+              <a href="./2venus.html">
+                <section id="venus" class="planet">
+                  <h2>Wenus</h2>
+                  <img
+                    src="./static/solar-system/2-venus/img.jpg"
+                    height="512"
+                  /></section
+              ></a>
+              <a href="./3earth.html">
+                <section id="earth" class="planet">
+                  <h2>Ziemia</h2>
+                  <img
+                    src="./static/solar-system/3-earth/img.jpg"
+                    height="512"
+                  /></section
+              ></a>
+              <a href="./4mars.html">
+                <section id="mars" class="planet">
+                  <h2>Mars</h2>
+                  <img
+                    src="./static/solar-system/4-mars/img.jpg"
+                    height="512"
+                  />
+                </section>
+              </a>
+            </div>
+          </section>
+          <section id="outer-planets">
+            <div class="box">
+              <h2>Planety zewnętrzne</h2>
+              <p>
+                Planety zewnętrzne są to olbrzymie planety gazowe, składające
+                się głównie z wodoru i helu.
+              </p>
+            </div>
+            <div class="planets">
+              <a href="./5jupiter.html">
+                <section id="jupiter" class="planet">
+                  <h2>Jowisz</h2>
+                  <img
+                    src="./static/solar-system/5-jupiter/img.jpg"
+                    height="512"
+                  />
+                </section>
+              </a>
+              <a href="./6saturn.html">
+                <section id="saturn" class="planet">
+                  <h2>Saturn</h2>
+                  <img
+                    src="./static/solar-system/6-saturn/img.jpg"
+                    height="512"
+                  />
+                </section>
+              </a>
+              <a href="./7uranus.html">
+                <section id="uranus" class="planet">
+                  <h2>Uran</h2>
+                  <img
+                    src="./static/solar-system/7-uranus/img.jpg"
+                    height="512"
+                  />
+                </section>
+              </a>
+              <a href="./8neptune.html">
+                <section id="neptune" class="planet">
+                  <h2>Neptun</h2>
+                  <img
+                    src="./static/solar-system/8-neptune/img.jpg"
+                    height="512"
+                  />
+                </section>
+              </a>
+            </div>
+          </section>
+        </section>
+      </main>
+      <footer>
+        <section>
+          <h3>Kontakt</h3>
+          <div>Kamil Nowakowski</div>
+          <div>index: 14150</div>
+          <div>kamil.nowakowski01@microsoft.wsei.edu.pl</div>
+        </section>
+        <section>
+          <h3>Informacje dotycząca praw autorskich.</h3>
+          <p>
+            <a target="_blank" href="https://openai.com/"> OpenAI</a> ChatGPT
+            3.5 - Treść na stronie została wygenrowana za pomocą tego modelu.
+          </p>
+          <p>
+            NASA - Użyte zdjęcia są dostępne na stronie NASA na podstawie
+            polityki praw autorskich
+            <a
+              target="_blank"
+              href="https://www.nasa.gov/nasa-brand-center/images-and-media/"
+              >NASA copyright policy</a
+            >
+            lub
+            <a
+              target="_blank"
+              href="https://www.jpl.nasa.gov/jpl-image-use-policy"
+            >
+              Image Use Policy</a
+            >.
+          </p>
+          <p>
+            <a
+              target="_blank"
+              href="https://pl.wikipedia.org/wiki/Uk%C5%82ad_S%C5%82oneczny#Wi%C4%99ksze_cia%C5%82a_niebieskie"
+              >Wikipedia - Statystyki planet</a
+            >
+            są danymi dostępnymi na ich stronie w oparciu o licencję
+            <a
+              target="_blank"
+              href="https://www.gnu.org/licenses/gpl-3.0.html"
+              >GNU Free Documentation Licence</a
+            >.
+          </p>
+        </section>
+      </footer>
+    </div>
+  </body>
+</html>

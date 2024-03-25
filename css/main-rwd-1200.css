@@ -1,0 +1,63 @@
+@media (max-width: 1200px) {
+  .sectionText {
+    width: 300px;
+  }
+
+  #sun #rightSection img{
+    width: 412px;
+  }
+
+  .planet {
+    width: 330px;
+    height: 380px;
+    margin: 20px;
+  }
+
+  .boxPlanet{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  section.box .leftSide {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    
+  }
+
+  .text{
+    border: 2px solid #fff;
+  border-right: none;
+  border-top: none;
+  padding: 10px 0 10px 20px;
+  margin: 10px 0 10px 0;
+  }
+
+  section.box .leftSide .statistic {
+    text-align: center;
+  }
+
+  section.box .rightSide img{
+    display: flex;
+    position: relative;
+  }
+
+  .planetImage img {
+    width: 200px;
+    margin-bottom: -60px;
+  }
+
+  .planetImage.saturn {
+    overflow: hidden;
+  }
+
+  .planetImage.saturn {
+    width: 650px;
+  }
+
+  .planetImage img.saturn {
+    width: 110%;
+    margin: -25px;
+  }
+}
