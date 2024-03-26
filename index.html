@@ -12,15 +12,21 @@
     <link rel="stylesheet" href="./css/main-rwd-1200.css" />
     <link rel="stylesheet" href="./css/main-rwd-800.css" />
 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-
     <link
       href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Rakkas&display=swap"
       rel="stylesheet"
     />
 
     <!-- Opcjonalne: Dołączanie CSS dla dodatkowego stylowania -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+    <script src="js/slajder.js"></script>
+
     <script src="./js/menu.js" defer></script>
   </head>
   <body>
@@ -30,7 +36,9 @@
         <!-- Opcjonalnie: Dodanie nawigacji -->
         <nav>
           <ul class="menu">
-            <li><a class="menuItem" href="./index.html">Solar System Website</a></li>
+            <li>
+              <a class="menuItem" href="./index.html">Solar System Website</a>
+            </li>
             <li><a class="menuItem" href="./1mercury.html">Merkury</a></li>
             <li><a class="menuItem" href="./2venus.html">Wenus</a></li>
             <li><a class="menuItem" href="./3earth.html">Ziemia</a></li>
@@ -72,7 +80,7 @@
             </div>
           </div>
           <div id="rightSection">
-            <img src="./static/solar-system/0-sun/img.jpg"/>
+            <img src="./static/solar-system/0-sun/img.jpg" />
           </div>
         </section>
         <section id="planets">
@@ -169,6 +177,24 @@
             </div>
           </section>
         </section>
+        <section>
+          <div class="box">
+            <h2>Slajder</h2>
+          </div>
+          <div id="slide-wrap">
+            <section class="slider">
+              <ul class="slider1">
+                <li>
+                  <img src="./static/slajder1.jpg" alt="Zaćmienie Słońca" />
+                </li>
+                <li>
+                  <img src="./static/slajder2.jpg" alt="Księżyc w pełni" />
+                </li>
+                <li><img src="./static/slajder3.jpg" alt="Galaktyka" /></li>
+              </ul>
+            </section>
+          </div>
+        </section>
       </main>
       <footer>
         <section>
@@ -206,9 +232,7 @@
               >Wikipedia - Statystyki planet</a
             >
             są danymi dostępnymi na ich stronie w oparciu o licencję
-            <a
-              target="_blank"
-              href="https://www.gnu.org/licenses/gpl-3.0.html"
+            <a target="_blank" href="https://www.gnu.org/licenses/gpl-3.0.html"
               >GNU Free Documentation Licence</a
             >.
           </p>
